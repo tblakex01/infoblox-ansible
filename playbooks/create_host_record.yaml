@@ -12,7 +12,7 @@
     - name: Create Nios Host Record
       infoblox.nios_modules.nios_host_record:
         name: host.ansibletestzone.com
-        view: ansibleDnsView
+        view: Internal
         ipv4addrs:
           - ipv4addr: 192.168.11.251
         comment: Created with Ansible
